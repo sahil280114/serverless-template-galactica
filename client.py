@@ -4,7 +4,7 @@ import os
 api_key = os.environ.get("API_KEY")
 model_key = os.environ.get("MODEL_KEY")
 
-model_inputs = {'prompt': 'My favorite part about working with AI is'}
+model_inputs = {'prompt': 'Scaled dot product attention:\n\n\\['}
 
 model_outputs = banana.run(api_key, model_key, model_inputs)
 
